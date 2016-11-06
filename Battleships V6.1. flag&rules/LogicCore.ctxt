@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LogicCore
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=int[]\ generateBSArr()
+comment2.text=public\ static\ int[]\ generateLinearArr(int\ x)\ {\r\n\ \ \ \ \ \ \ \ int[]\ linearArr\=new\ int[26];\r\n\ \ \ \ \ \ \ \ int\ position\=Greenfoot.getRandomNumber(26);\r\n\ \ \ \ \ \ \ \ for(int\ i\=0;i<26;i++){\r\n\ \ \ \ \ \ \ \ \ \ \ \ linearArr[i]\=Greenfoot.getRandomNumber(1001);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ linearArr[position]\=x;\r\n\ \ \ \ \ \ \ \ return\ linearArr;\r\n\ \ \ \ }\r\n
+numComments=3
